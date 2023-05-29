@@ -241,8 +241,33 @@
         }
     }
     
-        
-    /* TEAMS COLOR VARIABLES */
-        
-    
+
+    /* TEAMS OVERRIDES */
+    body {
+        background-color: var(--base);
+    }
+
+    /* left icon bar and activity panel / rail */
+    .app-bar {
+        background-color: var(--mantle);
+    }
+
+    .ts-left-rail {
+        color: var(--text);
+        background-color: var(--base);
+    }
+
+    .app-bar ul button:hover,
+    .app-bar ul a:hover {
+        background-color: var(--crust) !important;
+    }
+
+    /* header bar */
+    .app-header-bar {
+        background-color: var(--mantle);
+    }
+
+    .ts-header-search {
+        background-color: var(--crust) !important;
+    }
 }
