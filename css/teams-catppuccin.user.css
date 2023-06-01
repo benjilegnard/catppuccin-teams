@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Teams Catppuccin
 @namespace      github.com/benjilegnard/catppuccin-teams
-@version        0.0.3
+@version        0.0.4
 @description    Soothing pastel theme for Teams.
 @author         benjilegnard
 @updateURL      https://raw.githubusercontent.com/benjilegnard/catppuccin-teams/main/css/teams-catppuccin.user.css
@@ -297,19 +297,32 @@
 
     .message-list-common:not(.chat-style) thread .ts-message .conversation-common.conversation-start .media .ts-message-thread-body:not(.keep-hover-focus):not(.keep-hover-focus-with-popover) .message-body,
     .message-list-common:not(.chat-style) thread .ts-message .conversation-common.conversation-start .media .ts-message-thread-body:not(.keep-hover-focus):not(.keep-hover-focus-with-popover) .message-body .message-actions-container {
-
         background-color: var(--mantle) !important;
     }
 
     .ts-reply-message .icons-reply.ts-sym {
-
         background-color: var(--crust) !important;
     }
 
     .message-list-common:not(.chat-style) thread .ts-message .conversation-common.conversation-reply .media,
     .message-list-common:not(.chat-style) thread .ts-message .conversation-common.conversation-reply .media .message-actions-container,
     thread-collapsed .media {
-
         background-color: var(--mantle) !important;
+    }
+
+
+    .bg-generic{
+        background-color: var(--surface0) !important;
+    }
+    
+    .child-popover, div.popover{
+        background-color: var(--surface0) !important;
+    }
+    /* */
+    .app-default-menu li > .files-navigation button:hover,
+    .app-default-menu li > .ts-sym:hover,
+    .app-default-menu li > a:hover,
+    .cns-popover .cns-default-menu-ul .cns-default-menu-li:hover > a {
+        background-color: var(--surface1) !important;
     }
 }
